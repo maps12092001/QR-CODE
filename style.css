@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 16px;
+}
+
+.Home {
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.QrCode {
+    max-width: 25rem;
+    padding: 1rem 1rem 2rem;
+    border-radius: 2rem;
+    background-color: #fff;
+    text-align: center;
+    display: grid;
+    gap: 2rem;
+}
+
+.QrCode__Title {
+    font-size: 2rem;
+    color: hsl(218, 44%, 22%);
+}
+
+.QrCode__Subtitle {
+    font-size: 1.5rem;
+    color: hsl(220, 15%, 55%);
+}
+
+.QrCode__Img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
